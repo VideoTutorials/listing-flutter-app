@@ -55,7 +55,34 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        title: Text(widget.title)
+        title: Text(widget.title),
+        actions: <Widget>[
+          IconButton(
+            icon: const Icon(Icons.add),
+            tooltip: "Add a new item",
+            onPressed: () {
+              scaffoldKey.currentState.showSnackBar(
+                SnackBar(content: Text("Add item coming soon..."), duration: Duration(seconds: 1))
+              );
+            },
+          ),
+          IconButton(
+            icon: const Icon(Icons.clear),
+            tooltip: "Show more",
+            onPressed: () {
+              _resetCounter();
+            },
+          ),
+          IconButton(
+            icon: const Icon(Icons.apps),
+            tooltip: "Show more",
+            onPressed: () {
+              scaffoldKey.currentState.showSnackBar(
+                SnackBar(content: Text("Show more coming soon..."), duration: Duration(seconds: 1))
+              );
+            },
+          )
+        ],
       ),
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
