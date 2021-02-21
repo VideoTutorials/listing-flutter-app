@@ -1,16 +1,16 @@
-# listing
+# Listing Flutter App
 
-A new Flutter project.
+Listing is an example Flutter app. Check GitHub branches for specific examples.
 
-## Getting Started
+## Examples and Video Tutorials
 
-This project is a starting point for a Flutter application.
+Listing is an example Flutter app. Check GitHub branches for specific examples.
 
-A few resources to get you started if this is your first Flutter project:
+This repository is complementary to video tutorials posted at [VideoTutorials.io](https://videotutorials.io).
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Here is the list of most recent tutorials:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Flutter: how to add action IconButtons in AppBar?](https://videotutorials.io/flutter-how-to-add-action-iconbuttons-in-appbar/)
+- [Flutter: How to install on macOS, create a new project, and run it on iOS Simulator using VS Code?](https://videotutorials.io/flutter-install-on-macos-create-a-new-project-and-run-it-on-ios-simulator-using-vs-code/)
+
+You can also check [Flutter](https://videotutorials.io/category/flutter/) category for all related video tutorials.
