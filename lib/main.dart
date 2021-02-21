@@ -55,7 +55,31 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        title: Text(widget.title)
+        title: Text(widget.title),
+        actions: [
+          IconButton(
+            icon: Icon(Icons.add),
+            onPressed: () {
+              scaffoldKey.currentState.showSnackBar(
+                SnackBar(content: Text("Coming soon..."), duration: Duration(seconds: 1),)
+              );
+            },
+          ),
+          IconButton(
+            icon: Icon(Icons.clear),
+            onPressed: () {
+              _resetCounter();
+            },
+          ),
+          IconButton(
+            icon: Icon(Icons.apps),
+            onPressed: () {
+              scaffoldKey.currentState.showSnackBar(
+                SnackBar(content: Text("Coming soon..."), duration: Duration(seconds: 1),)
+              );
+            },
+          )
+        ],
       ),
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
